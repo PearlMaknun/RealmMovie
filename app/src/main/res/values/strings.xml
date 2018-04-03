@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RealmMovie</string>
+    <string name="action_settings">Settings</string>
+    <string name="judul">Judul</string>
+    <string name="tahun">Tahun</string>
+    <string name="produksi">Produksi</string>
+    <string name="poster">Poster</string>
+</resources>
