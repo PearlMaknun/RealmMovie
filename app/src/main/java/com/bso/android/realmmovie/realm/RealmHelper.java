@@ -2,8 +2,11 @@ package com.bso.android.realmmovie.realm;
 
 import android.util.Log;
 
+import java.util.List;
+
 import io.realm.Realm;
 import io.realm.RealmModel;
+import io.realm.RealmResults;
 
 /**
  * Created by Lu'lu' on 02/04/2018.
@@ -38,5 +41,11 @@ public class RealmHelper{
                 }
             }
         });
+    }
+
+    //select data
+    public List<MovieRealmModel> getAllMovie(){
+        RealmResults<MovieRealmModel> movieResult = realm.where(MovieRealmModel.class).findAll();
+        return movieResult;
     }
 }
