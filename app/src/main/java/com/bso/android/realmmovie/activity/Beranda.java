@@ -1,9 +1,8 @@
-package com.bso.android.realmmovie;
+package com.bso.android.realmmovie.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -12,6 +11,8 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.bso.android.realmmovie.R;
+import com.bso.android.realmmovie.activity.AddActivity;
 import com.bso.android.realmmovie.adapter.MovieAdapter;
 import com.bso.android.realmmovie.realm.MovieRealmModel;
 import com.bso.android.realmmovie.realm.RealmHelper;
