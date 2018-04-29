@@ -93,6 +93,12 @@
 
     </LinearLayout>-->
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sinopsis"
+        />
+
     <Button
         android:id="@+id/btn_simpan"
         android:text="@string/simpan"
